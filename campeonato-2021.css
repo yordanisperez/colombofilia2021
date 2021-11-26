@@ -1,0 +1,167 @@
+/*
+Trabajo final del curso boostrap.
+------------------------------------------
+Nombre: Yordanis Pérez Brito
+No. Identidad: 78090814764 (11 números)
+Email: yordanis.perez@desoft.cu
+División/empresa: Desoft. Cienfuegos
+*/
+
+
+#colombofilos, #palomas,#estadisticas{
+    margin: 10rem auto 0rem auto;
+    float: none;
+ 
+}
+.card{
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    border: solid 1px  gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+   
+    background-color:#e9e9e9ff;
+    color: #666;
+    z-index: 5;
+    padding:1rem;
+    height: min-content;
+    
+}
+.center-card{
+    margin-left: auto;
+    margin-right: auto;
+    float:none;
+}
+.card-title{
+    display: inline;
+}
+.card-value{
+    display:inline;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.img-card{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: auto;
+    float:none;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .card-hide {
+        display: none;
+    }
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 0rem auto 0rem auto;
+  
+    width: 100%;
+    padding-top: 2rem;
+  }
+  #contacto .nav-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #e9e9e9ff;
+    height: 4rem;
+    justify-content: center;
+  }
+
+  #contacto ul {
+    display: flex;
+    padding: 0rem 2rem 0rem 0rem;
+    margin: 0rem;
+
+    height: 100%;
+  }
+  #contacto li {
+    color: #e9e9e9ff;
+    padding: 0rem 1rem 0rem 1rem;
+    list-style: none;
+  }
+  #contacto  i {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+  #contacto span {
+    margin: 0rem 5rem 1rem 0rem;
+    color: white;
+  }
+
+ #contacto i:hover {
+    visibility: visible;
+    animation-name: react-border;
+    animation-duration: 0.15s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes react-border {
+    0% {
+      border: 1.2px solid #ced4da;
+    }
+    100% {
+      border: 2px solid #949fb8;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    #Contacto {
+      justify-content: center;
+      
+     
+    }
+    #contacto span {
+        margin: 0rem auto 1rem auto;
+        
+    }
+
+    #contacto  ul {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0rem;
+  
+        margin: 2rem auto 0rem auto;
+       
+      }
+
+      #contacto ul li {
+        margin: 0rem auto 5rem auto;
+        list-style: none;
+        
+      }
+      #contacto ul li  a {
+        height: 2rem;
+        text-decoration: solid;
+        color: white;
+      }
+  }
+  
+
+  /*
+Trabajo final del curso boostrap.
+------------------------------------------
+Nombre: Yordanis Pérez Brito
+No. Identidad: 78090814764 (11 números)
+Email: yordanis.perez@desoft.cu
+División/empresa: Desoft. Cienfuegos
+*/

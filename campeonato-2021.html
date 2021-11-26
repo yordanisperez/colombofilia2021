@@ -1,0 +1,149 @@
+<!--
+Trabajo final del curso boostrap.
+------------------------------------------
+Nombre: Yordanis Pérez Brito
+No. Identidad: 78090814764 (11 números)
+Email: yordanis.perez@desoft.cu
+División/empresa: Desoft. Cienfuegos
+-->
+
+<!DOCTYPE html>
+<html lang="es_ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Manuel E. Toledo">
+    <title>Funcionalidades en Javascript</title>
+    <!-- incluir el CSS por defecto para Bootstrap -->
+    <link href="bt/css/bootstrap.min.css" rel="stylesheet">
+    <link href="campeonato-2021.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/LogoPalomaOpt.svg">
+    <script src="campeonato-2021.js"></script>
+    <!--<link href="bt/css/theme.css" rel="stylesheet"> -->
+
+    <!--[if lt IE 9]>
+        <script src="bt/js/html5shiv.min.js"></script>
+        <script src="bt/js/respond.min.js"></script>
+      <![endif]-->
+
+</head>
+
+<body onload="loadingColombofilos()">
+
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="barra">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Expande el menú</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#"><img src="imagenes/LogoPalomaOpt.svg" width="40" alt="Logo Palomas"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav nav-pills navbar-nav">
+                            <li><a class="nav-link active" aria-current="page" href="#colombofilos" data-toggle="pill">Colombofilos</a></li>
+                            <li><a href="#palomas" data-toggle="pill">Palomas</a></li>
+                            <li><a  href="#estadisticas" data-toggle="pill">Estadisticas</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Escribe algo ...">
+                            </div>
+                            <button type="submit" class="btn btn-default">Buscar</button>
+                        </form>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <div class="tab-content">
+            <!-- Contenido del tab para colombofilos -->
+            <div role="tabpanel" class="tab-pane fade in active" id="colombofilos">
+                <h1>Campeonato 2021 Santiago de Cartagena</h1>
+            </div>
+            <!-- Contenido del tab para palomas -->
+            <div role="tabpanel" class="tab-pane fade" id="palomas">
+                <h1>Palomas que participaron</h1>
+            </div>
+
+            <!-- Contenido del tab para CSS3 -->
+            <div role="tabpanel" class="tab-pane fade" id="estadisticas">
+                <h1>Estadisticas</h1>
+
+            </div>
+    
+        </div>
+    </div>
+    <footer id="contacto" class="navbar-inverse">
+        <ul class="nav  navbar-nav">
+          <li>
+            <a
+              target="_blank"
+              id="profile-link"
+              className="nav-link"
+              href="https://m.facebook.com/yordanis.perez"
+              rel="noreferrer"
+            >
+              <i>
+                <img src="imagenes/facebook.svg" width="30" alt="Facebook Icon"></img>Facebook
+              </i>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              id="profile-link"
+              className="nav-link"
+              href="https://github.com/yordanisperez"
+              rel="noreferrer"
+            >
+              <i>
+                <img src="imagenes/github.svg" width="30" alt="GitHub Icon"></img>GitHub
+              </i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" className="nav-link" href="52121494">
+              <i>
+                <img src="imagenes/call.svg" width="30" alt="Tel Icon"></img>Llamame
+              </i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" className="nav-link" href="yordanis.perez@desoft.cu">
+              <i>
+                <img src="imagenes/email.svg" width="30" alt="Email Icon"></img>Mail
+              </i>
+            </a>
+          </li>
+        </ul>
+        <span>Copyright 2021, Original Colombofilia Santiago de Cartagena 2021</span>
+    </footer>
+
+    <!-- Incluir los script de Jquery y Bootstrap al final de la página para agilizar la carga -->
+    <script src="bt/js/jquery.min.js "></script>
+    <script src="bt/js/bootstrap.min.js "></script>
+
+
+</body>
+
+</html>
+
+<!--
+Trabajo final del curso boostrap.
+------------------------------------------
+Nombre: Yordanis Pérez Brito
+No. Identidad: 78090814764 (11 números)
+Email: yordanis.perez@desoft.cu
+División/empresa: Desoft. Cienfuegos
+-->
