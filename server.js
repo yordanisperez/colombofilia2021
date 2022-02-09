@@ -5,7 +5,7 @@ const path = require('path');
 
 
   
-const port = process.env.PORT|80;
+const port = process.env.PORT|3000;
 
 
 app.use(express.urlencoded({ extended: true })); //Usar el bodyparser que enta 
